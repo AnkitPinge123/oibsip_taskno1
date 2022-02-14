@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    width: 95%;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+}
+.navbar
+{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+.cart{
+    width: 40px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+nav{
+    flex:1 ;
+    padding-left:60px ;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(124, 29, 212);
+    font-size: 30px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    font-size: 40px;
+    color: rgb(236, 47, 179);
+}
+
+.content h1{
+font-size: 60px;
+font-weight: 100;
+margin: 24px;
+margin-bottom: 15px;
+color: #232d;
+
+}
+
+.content p
+{
+font-size: 30px;
+
+color: #6a7199;
+}
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.content .btn{
+   display: inline-block;
+   background:linear-gradient(45deg,#87adfe,#ff77cd);
+   border-radius: 6px;
+   padding: 10px 20px;
+   box-sizing: border-box;
+   text-decoration: none;
+   color: #fff;
+   box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+
+}
+
+.feature-img{
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  left: 55%;
+}
+
+.conlogo{
+    width: 47px;
+    height: 35px;
+    
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: -40px;
+}
+.conlogo:hover{
+    width: 55px;
+    height:45px ;
+    border:2px solid rgb(28, 3, 87);
+}
+
+
+
+
+
+
